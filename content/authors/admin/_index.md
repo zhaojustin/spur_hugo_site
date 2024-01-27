@@ -1,9 +1,6 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: first last
 
 # Full name (for SEO)
 first_name: Shiung Wu
@@ -17,15 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: subtitle / tagline
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Organization Name
+    url: https://www.nyu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 # Interests to show in About widget
 interests:
@@ -52,36 +49,36 @@ skills:
   - name: Technical
     items:
       - name: Python
-        description: ''
+        description: ""
         percent: 80
         icon: python
         icon_pack: fab
       - name: Data Science
-        description: ''
+        description: ""
         percent: 100
         icon: chart-line
         icon_pack: fas
       - name: SQL
-        description: ''
+        description: ""
         percent: 40
         icon: database
         icon_pack: fas
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
       - name: Hiking
-        description: ''
+        description: ""
         percent: 60
         icon: person-hiking
         icon_pack: fas
       - name: Cats
-        description: ''
+        description: ""
         percent: 100
         icon: cat
         icon_pack: fas
       - name: Photography
-        description: ''
+        description: ""
         percent: 80
         icon: camera-retro
         icon_pack: fas
@@ -93,7 +90,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: "/#contact"
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
@@ -120,5 +117,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 {style="text-align: justify;"}
