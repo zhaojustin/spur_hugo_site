@@ -13,10 +13,10 @@ main:
   - name: Talks
     url: "#talks"
     weight: 3
-  - name: Future Schedule
-    url: "#schedule"
+  - name: Publications
+    url: "#publications"
     weight: 4
-  - name: Research Papers
+  - name: Working Papers
     url: "#papers"
     weight: 5
   - name: Contact

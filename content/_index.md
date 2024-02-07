@@ -27,9 +27,9 @@ sections:
     design:
       columns: "2"
 
-  # Affiliate profiles
+  # Talks section
   - block: collection
-    id: topics
+    id: talks
     content:
       title: Upcoming and Past Talks
       subtitle: ""
@@ -56,18 +56,18 @@ sections:
       columns: "2"
 
   # Publications - COMMENTED OUT FOR NOW
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: false
-  #       count: 0
-  #   design:
-  #     columns: "2"
-  #     view: card
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+        featured_only: false
+        count: 0
+    design:
+      columns: "2"
+      view: card
 
   # Working Papers - COMMENTED OUT FOR NOW
   - block: collection
