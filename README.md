@@ -21,6 +21,36 @@ The affiliates section can easily be changed by altering one data file and repla
 
 This section was created using shortcode. The shortcode can be found at [layouts/shortcodes/teamSection.html](/layouts/shortcodes/teamSection.html). If you would like to add more fields for each user or alter the look, this is the place to go.
 
+### Updating Events and Talks
+
+The Upcoming and Past Talks section is based on the folder called [event](/content/event/).
+
+**Procedure**:
+
+1. Go to the [content/event](/content/event/) folder.
+2. Each event has an index.md file that you can edit, which will reflect on both its own page (which you can access by clicking it) and on the card on the home screen.
+   - Do **NOT** edit the "publish" date, unless you wish to have it automatically show up after a certain date.
+3. To edit the date, edit the "date" field.
+4. To edit the title and summary, simply replace the title and summary texts.
+5. To add an event, just copy paste any of the current folders, such as 01-19, then edit the information inside.
+   - You can name the folder whatever you like.
+   - The section will automatically sort the events by date, newest first.
+6. You can replace the image by replacing the featured.jpg file in each of the folders.
+
+### Publications Section
+
+The publications section is similar to the talks section, in that it generates content based on the folders inside [content/publication](/content/event/).
+
+**Procedure**:
+
+1. To add a publication, just copy paste one of the existing folders and edit the content.
+   - You can name the folder whatever you like.
+2. Optional: To add a citation, you can add a .bib file to the newly created folder.
+   - Hugo will automatically generate a link for the citation on the card.
+3. Optional: To add a PDF, you can also add a .pdf file to the newly created folder.
+   - Hugo will automatically generate a link to the PDF on the card.
+4. Optional: To add a thumbnail image, add an image called "featured.jpg" to the folder.
+
 ### Global Styles
 
 Global styles (so far only the font), are set in the header html as CSS styling. You can find it at [layouts/partials/hooks/head-end/custom.html](/layouts/partials/hooks/head-end/custom.html).

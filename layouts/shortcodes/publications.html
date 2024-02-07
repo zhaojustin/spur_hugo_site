@@ -1,0 +1,87 @@
+<!-- layouts/shortcodes/publications.html -->
+{{ range $.Site.Data.publications }}
+<div class="publication-item">
+  <div class="publication-content">
+    <h2 class="publication-title">
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"
+        >{{ .title }}</a
+      >
+    </h2>
+    <p class="publication-summary">{{ .summary }}</p>
+    <div class="publication-meta">
+      <span class="publication-date"
+        >{{ dateFormat "January 2, 2006" .date }}</span
+      >
+    </div>
+  </div>
+  <div class="publication-thumbnail">
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ .image }}" alt="{{ .title }}" />
+    </a>
+  </div>
+</div>
+{{ end }}
+
+<style>
+  /* Custom CSS for publications */
+  .publication-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Use the text color from the parent element */
+  }
+
+  /* Adjust the width to 100vw for smaller screens */
+  @media (max-width: 1920px) {
+    /* Example breakpoint for "smaller screens" */
+    .publication-item {
+      width: 40vw;
+    }
+  }
+
+  /* Adjust the width to 100vw for smaller screens */
+  @media (max-width: 768px) {
+    /* Example breakpoint for "smaller screens" */
+    .publication-item {
+      width: 100vw;
+    }
+  }
+
+  .publication-content {
+    flex-grow: 1;
+  }
+
+  .publication-title {
+    margin: 0;
+    font-size: 1.2em; /* Make the title smaller */
+  }
+
+  .publication-summary {
+    margin: 0;
+    color: #555;
+  }
+
+  .publication-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #777;
+  }
+
+  .publication-thumbnail img {
+    max-width: 150px; /* Adjust size to match your design */
+    height: auto;
+    border: 1px solid #ddd; /* Optional border */
+  }
+
+  .publication-item a {
+    text-decoration: none; /* Removes the underline from links */
+    color: inherit; /* Inherits the color from the parent element */
+  }
+
+  /* Optional: add hover effect for the links */
+  .publication-item a:hover {
+    text-decoration: underline; /* Adds underline on hover for better UX */
+  }
+</style>

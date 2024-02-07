@@ -1,0 +1,11 @@
+- title: Security of L2 platforms
+  date: 2024-02-02
+  description: In this session, we discussed how and to what extent L2 blockchains inherit security from L1 blockchains and what new security risks arise with L2 technology.
+
+- title: Business models of L2 platforms
+  date: 2024-01-26
+  description: On most L2 platforms, the transaction fees users pay consist of a fee for the verification of their transaction on the L2 network and a fee to publish its proof on the L1 network. Since the L1 fees depend on congestion at the time the proof of an L2 transaction bundle is published on the L1, L2 platforms can generate profits if the fees they charge surpass their operational costs and the L1 fees they pay. In this session, we discussed under what circumstances an L2 platform can establish a viable business model.
+
+- title: Architecture of L2 platforms
+  date: 2024-01-19
+  description: In this session, we discussed different L2 architectures and how these various designs aim to address the scaling problem of L1. We particularly focused on factors contributing to efficiency gains (such as reduced decentralization, transaction bundling, decreased congestion, and off-chain computation) and how these measures will impact transaction fees and the long-term stability of the platforms.

@@ -10,8 +10,8 @@ main:
   - name: Affiliates
     url: "#affiliates"
     weight: 2
-  - name: Topics of our meeting
-    url: "#topics"
+  - name: Talks
+    url: "#talks"
     weight: 3
   - name: Future Schedule
     url: "#schedule"
@@ -19,12 +19,9 @@ main:
   - name: Research Papers
     url: "#papers"
     weight: 5
-  - name: Affiliates
-    url: "#affiliates"
-    weight: 6
   - name: Contact
     url: "#contact"
-    weight: 7
+    weight: 6
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
