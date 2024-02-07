@@ -51,6 +51,17 @@ The publications section is similar to the talks section, in that it generates c
    - Hugo will automatically generate a link to the PDF on the card.
 4. Optional: To add a thumbnail image, add an image called "featured.jpg" to the folder.
 
+### Working Papers Section
+
+The publications section is similar to the the publications section, in that it generates content based on the folders inside [content/post](/content/post/).
+
+**Procedure**:
+
+1. To add a working paper, just copy paste any of the folders inside the [content/post](/content/post/) folder and change the name to whatever you like.
+2. Make sure to update the summary, link, dates, and authors inside.
+3. To update or add a thumbnail, just add a 'featured.jpg/png' file inside it.
+   - Yes, the file does need to be named 'featured'
+
 ### Global Styles
 
 Global styles (so far only the font), are set in the header html as CSS styling. You can find it at [layouts/partials/hooks/head-end/custom.html](/layouts/partials/hooks/head-end/custom.html).
