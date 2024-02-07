@@ -1,0 +1,53 @@
+- name: Hanna Halaburda
+  image: HannaHalaburda.jpg
+  social:
+    website: "https://works.bepress.com/halaburda/"
+    bio: "https://www.stern.nyu.edu/faculty/bio/hanna-halaburda"
+
+- name: Yannis Bakos
+  image: YannisBakos.jpg
+  social:
+    website: "https://pages.stern.nyu.edu/~bakos/"
+    bio: "https://www.stern.nyu.edu/faculty/bio/yannis-bakos"
+
+- name: Raveesh Mayya
+  image: RaveeshMayya.jpg
+  social:
+    website: "http://www.raveeshmayya.com/"
+    bio: "https://www.stern.nyu.edu/faculty/bio/raveesh-mayya"
+
+- name: Abdoulaye Ndiaye
+  image: AbdoulayeNdiaye.jpg
+  social:
+    website: "https://sites.google.com/view/abdoulaye-ndiaye"
+    bio: "https://www.stern.nyu.edu/faculty/bio/abdoulaye-ndiaye"
+
+- name: Guillaume Haeringer
+  image: GuillaumeHaeringer.jpg
+  social:
+    website: "https://sites.google.com/site/guillaumehaeringer/"
+    bio: "https://zicklin.baruch.cuny.edu/faculty-profile/guillaume-haeringer/"
+
+- name: Daniel Obermeier
+  image: DanielObermeier.jpg
+  social:
+    website: "https://danielobermeier.github.io/"
+    bio: ""
+
+- name: Gustavo Grivol
+  image: GustavoGrivol.jpg
+  social:
+    website: ""
+    bio: ""
+
+- name: Luofeng Zhou
+  image: LuofengZhou.jpg
+  social:
+    website: ""
+    bio: ""
+
+- name: Madhav Karwa
+  image: MadhavKarwa.jpg
+  social:
+    website: ""
+    bio: ""

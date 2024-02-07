@@ -6,22 +6,25 @@
 main:
   - name: Home
     url: "#about"
-    weight: 10
-  - name: Topics of our meeting
-    url: "#topics"
-    weight: 20
-  - name: Future Schedule
-    url: "#schedule"
-    weight: 30
-  - name: Research Papers
-    url: "#papers"
-    weight: 50
+    weight: 1
   - name: Affiliates
     url: "#affiliates"
-    weight: 50
+    weight: 2
+  - name: Topics of our meeting
+    url: "#topics"
+    weight: 3
+  - name: Future Schedule
+    url: "#schedule"
+    weight: 4
+  - name: Research Papers
+    url: "#papers"
+    weight: 5
+  - name: Affiliates
+    url: "#affiliates"
+    weight: 6
   - name: Contact
     url: "#contact"
-    weight: 60
+    weight: 7
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV

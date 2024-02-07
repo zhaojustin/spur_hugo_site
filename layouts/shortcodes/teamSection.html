@@ -1,0 +1,46 @@
+<div class="team-section">
+    {{ range $.Site.Data.affiliates }}
+    <div class="team-member">
+        <img src="/images/affiliates/{{ .image }}" alt="{{ .name }}">
+        <h4>{{ .name }}</h4>
+        <div class="social-links">
+            {{ if .social.website }}<a href="{{ .social.website }}">Website</a>{{ end }}
+            {{ if .social.website }}<a href="{{ .social.website }}">Bio</a>{{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .team-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .team-member {
+        width: 30%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .team-member img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .social-links {
+        margin-top: -5px;
+    }
+    
+    .social-links a {
+        margin: 0 5px;
+        font-size: 18px;
+    }
+
+    .social-links a:hover {
+        text-decoration: none;
+    }
+</style>
