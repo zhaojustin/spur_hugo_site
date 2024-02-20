@@ -17,9 +17,9 @@ appearance:
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ""
-    org_name: ""
-    description: "NYU Blockchain Lab."
+    local_business_type: "Research Lab"
+    org_name: "NYU Stern"
+    description: "Blockchain Lab at NYU Stern."
     twitter: ""
   analytics:
     google_analytics: ""
@@ -47,7 +47,7 @@ header:
 
 footer:
   copyright:
-    notice: "© 2024 NYU Blockchain Lab."
+    notice: "© 2024 Blockchain Lab at NYU Stern."
     license:
       enable: true
       allow_derivatives: false

@@ -12,6 +12,7 @@ all_day: true
 # do NOT alter this.
 publishDate: "2024-01-01T00:00:00Z"
 
+# aray of names for author
 authors: []
 tags: []
 
@@ -21,14 +22,4 @@ featured: false
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)"
   focal_point: Right
-
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
 ---

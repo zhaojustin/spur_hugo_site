@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Research and Discussion Group"
 date: 2022-10-24
 type: landing
 
@@ -20,7 +20,7 @@ sections:
     id: affiliates
     content:
       title: Affiliates
-      subtitle: subtitle?
+      subtitle: Blockchain Lab Members
       text: |-
         {{< teamSection >}}
       count: 1
@@ -29,9 +29,9 @@ sections:
 
   # Talks section
   - block: collection
-    id: talks
+    id: past_talks
     content:
-      title: Upcoming and Past Talks
+      title: Past Talks
       subtitle: ""
       text: ""
       # Choose how many pages you would like to display (0 = all pages)
@@ -39,7 +39,7 @@ sections:
       # Filter on criteria
       filters:
         folders:
-          - event
+          - past_talks
         author: ""
         category: ""
         tag: ""
@@ -55,7 +55,35 @@ sections:
       view: compact
       columns: "2"
 
-  # Publications - COMMENTED OUT FOR NOW
+  # Talks section
+  - block: collection
+    id: future_talks
+    content:
+      title: Upcoming Talks
+      subtitle: ""
+      text: ""
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+      # Filter on criteria
+      filters:
+        folders:
+          - future_talks
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: "2"
+
+  # Publications
   - block: collection
     id: publications
     content:
@@ -69,7 +97,7 @@ sections:
       columns: "2"
       view: card
 
-  # Working Papers - COMMENTED OUT FOR NOW
+  # Working Papers
   - block: collection
     id: papers
     content:
@@ -87,51 +115,14 @@ sections:
     id: contact
     content:
       title: Contact
-      subtitle:
+      subtitle: Reach out to us!
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: "https://calendly.com"
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: "94305"
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        Reach out to us via email, and we will try our best to respond as soon as possible. You can email us at blockchainlab@stern.nyu.edu.
+      email: blockchainlab@stern.nyu.edu
       office_hours:
-        - "Monday 10:00 to 13:00"
-        - "Wednesday 09:00 to 10:00"
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: "37.4275"
-        longitude: "-122.1697"
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: "https://twitter.com/Twitter"
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: "skype:echo123?call"
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: "https://zoom.com"
+        - "Fridays 11:45 AM to 1:30 PM EST"
       # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: "2"
 ---

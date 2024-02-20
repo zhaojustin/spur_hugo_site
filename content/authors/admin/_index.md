@@ -1,9 +1,9 @@
 ---
 # Display name
-title: NYU Blockchain Lab
+title: Blockchain Lab
 
 # Full name (for SEO)
-first_name: NYU
+first_name:
 last_name: Blockchain Lab
 
 # Status emoji
@@ -22,7 +22,7 @@ organizations:
     url: https://www.stern.nyu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: The NYU Blockchain Lab is a research lab focusing on the latest developments in the blockchain and Web 3.0 space. We are a passionate group of researchers committed to pushing our frontier of knowledge by contributing cutting-edge insights and publications.
+bio: The Blockchain Lab at NYU Stern is a research lab focusing on the latest developments in the blockchain and Web 3.0 space. We are a passionate group of researchers committed to pushing our frontier of knowledge by contributing cutting-edge insights and publications.
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -59,7 +59,7 @@ highlight_name: true
 ---
 
 <br>
-The NYU Blockchain Lab is a research lab focusing on the latest developments in the blockchain and Web 3.0 space. We are a passionate group of researchers committed to pushing our frontier of knowledge by contributing cutting-edge insights and publications.
+The Blockchain Lab at NYU Stern is a research lab focusing on the latest developments in the blockchain and Web 3.0 space. We are a passionate group of researchers committed to pushing our frontier of knowledge by contributing cutting-edge insights and publications.
 
 Our dedication is to study the economic forces shaping blockchain technology to usher our digital platform economy into a more transparent, inclusive, and democratic era of the internet, often referred to as Web 3.0. Through our research, we aim to provide insights into the transformative potential of blockchain technology for users, companies, and society as a whole, and to better explain what the technology can and cannot help us achieve.
 
